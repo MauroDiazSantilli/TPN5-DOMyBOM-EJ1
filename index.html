@@ -24,16 +24,16 @@
           <article class="row">
             <div class="col-md-3 mx-auto text-center">
              <h2 class="mt-3">Adivine el numero magico</h2>
-             <button class="btn btn-danger rounded-2 mt-4" id="botnComenz">Comenzar el juego</button>
+             <button class="btn btn-danger rounded-2 mt-4" onclick="Comenzar()">Comenzar el juego</button>
              <!--Probando display: none para que el input del numero desaparezca -->
              <div class="mt-5 d-none" id="containJuego">
                 <h4>Adivine un numero entre 1 y 100</h4>
                 <form>
                 <div class="form-group mt-3">
-                <input type="number" class="form-control" id="adivinarNumero">
+                <input type="number" class="form-control" id="adivinarNumero" required>
                 </div>
                 </form>
-                <button class="btn btn-danger rounded-2 mt-4" id="adivinarBoton">Enviar</button>
+                <button class="btn btn-danger rounded-2 mt-4" onclick="Chequear()">Enviar</button>
                </div>
               </div>
          </article>
